@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "generate-password"
+version = "1.0"
+description = ""
+authors = ["m.pimonov"]
+license = "m.pimonov@licence"
+readme = "README.md"
+packages = [{include = "generate_password"}]
+
+[tool.poetry.dependencies]
+python = "3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
